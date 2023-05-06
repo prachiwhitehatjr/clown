@@ -2,7 +2,7 @@ nosex=0;
 nosey=0;
 
 function preload(){
-
+clownnose=loadImage('https://i.postimg.cc/k4gXVhnJ/48-482965-red-nose-png-circle-transparent-png.jpg');
 }
 function setup (){
 canvas=createCanvas(300,300);
@@ -29,7 +29,7 @@ image(video,0,0,300,300);
 fill(255,0,0);
 stroke(250,0,0);
 circle(nosex,nosey,20);
-
+image(clownnose,nosex,nosey,30,30);
 
 }
 function take_snapshot(){
